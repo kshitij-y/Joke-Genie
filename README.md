@@ -17,6 +17,10 @@ In this project, I am practicing making requests to public APIs. The goal is to 
 - **HTML**: For the structure of the website.
 - **CSS**: For styling the webpage.
 - **JavaScript**: For making API requests and handling the data.
+- **Node.js**: For server-side scripting.
+- **Express**: A web framework for Node.js.
+- **EJS**: A templating engine used for rendering HTML with embedded JavaScript.
+- **Axios**: A promise-based HTTP client for making API requests.
 - **Public API**: Used to fetch the jokes.
 
 ## How to Use
@@ -24,3 +28,20 @@ In this project, I am practicing making requests to public APIs. The goal is to 
 1. Clone the repository:
    ```bash
    git clone https://github.com/coderaark12/Joke-Time.git
+
+2. Navigate to the project directory
+    ```bash
+    cd Joke-Time
+
+
+## Future Improvements
+- Add more joke categories.
+- Improve the UI/UX.
+- Implement additional API features.
+
+
+## License
+- This project is open-source and available under the MIT License.
+
+## Acknowledgements
+- For more details, check out the [Public API documentation](https://sv443.net/jokeapi/v2/).
