@@ -33,7 +33,6 @@ In this project, I am practicing making requests to public APIs. The goal is to 
     ```bash
     cd Joke-Time
 
-
 ## Future Improvements
 - Add more joke categories.
 - Improve the UI/UX.
