@@ -3,7 +3,7 @@ pipeline {
 
     tools {
         nodejs 'Node'
-        dockerTool 'docker'
+        dockerTool 'Docker'
     }
 
     stages {
