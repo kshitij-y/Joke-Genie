@@ -9,13 +9,6 @@ pipeline {
             }
         }
 
-        stage('Install Dependencies') {
-            steps {
-                nodejs(nodeJSInstallationName: 'Node') {
-                    sh 'npm install'
-                }
-            }
-        }
 
         stage('Build Docker Image') {
             steps {
