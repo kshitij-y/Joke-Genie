@@ -1,6 +1,10 @@
 pipeline {
     agent any
 
+    tools {
+        nodejs 'nodejs-18'
+    }
+
     stages {
         stage('Checkout') {
             steps {
@@ -10,7 +14,9 @@ pipeline {
 
         stage('Install Dependencies') {
             steps {
-                sh 'npm install'
+                nodejs(nodeJSInstallationName: 'Node 6.x') {
+                    sh 'npm install'
+                }
             }
         }
 
