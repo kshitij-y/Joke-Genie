@@ -41,8 +41,16 @@ pipeline {
     }
 
     post {
+        success {
+            echo '✅ Deployment successful! The JokeGenie container is up and running at port 3000.'
+        }
+
+        failure {
+            echo '❌ Deployment failed! Check the console output for errors in build, push, or run steps.'
+        }
+
         always {
-            echo "✅ Pipeline completed"
+            echo '📦 CI/CD Pipeline execution completed.'
         }
     }
 }
