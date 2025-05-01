@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        IMAGE_NAME = 'kshitijdock032/joke-genie'
+        IMAGE_NAME = 'satyamkumar7050/joke-genie'
         CONTAINER_NAME = 'jokegenie-container'
     }
 
